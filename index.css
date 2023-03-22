@@ -1,6 +1,6 @@
 body{
     background-color: #000;
-    color: #fff;
+    color: #1bb6d1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin: 0;
@@ -12,15 +12,37 @@ h1{
     font-weight: bold;
     margin: 0;
     padding: 0;
-}
-span{
-    font-size: 40px;
-    font-weight: normal;
-    background-color:aqua;
     display: block;
-    text-align: right;
-    padding: 12px 0 0 12px;
-    border-bottom: #fff 2px solid;
-    font-style: italic;
+}
+.time-hour{
+    display: flex;
+}
+.time-year{
+    display: flex;
+}
+#time{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: #1bb6d1;
+    border: none;
+    margin: 0;
+    padding: 0;
 
 }
